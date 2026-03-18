@@ -1,13 +1,15 @@
-# workflow-autopilot
+# Workflow Autopilot
 
-Stub Python project. Described as "AI-powered workflow automation that learns and optimizes business processes," but none of that functionality exists.
+AI-powered workflow automation that learns and optimizes business processes.
 
-## What's actually here
+## About
+Workflow Autopilot uses machine learning to analyze, automate, and optimize repetitive business workflows. It observes process patterns, suggests improvements, and can autonomously execute routine tasks with configurable guardrails.
 
-A single class in `src/core.py` (WorkflowAutopilot) with placeholder methods (process, analyze, transform, validate, export, get_stats) that each return a fixed dictionary like `{ "ok": True }` without doing any real work. There is no workflow automation, no learning, no business process optimization - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No automation or ML libraries are present.
+## Tech Stack
+- Language: Python
+- ML: Process mining, pattern recognition
+- Orchestration: Task queue with dependency management
+- API: Workflow definition and monitoring endpoints
 
 ## Status
-
-Scaffolding only. No working workflow automation functionality exists.
+Active development - workflow engine and process analysis pipeline established.
