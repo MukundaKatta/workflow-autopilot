@@ -1,61 +1,13 @@
-# Workflow Autopilot
+# workflow-autopilot
 
-AI-powered workflow automation for business processes
+Stub Python project. Described as "AI-powered workflow automation that learns and optimizes business processes," but none of that functionality exists.
 
-## Features
+## What's actually here
 
-- Action Executor
-Analytics
-Api
-Engine
-Integrations
-Scheduler
-Trigger System
-Workflow Builder
+A single class in `src/core.py` (WorkflowAutopilot) with placeholder methods (process, analyze, transform, validate, export, get_stats) that each return a fixed dictionary like `{ "ok": True }` without doing any real work. There is no workflow automation, no learning, no business process optimization - just stubs.
 
-## Tech Stack
+The project uses only Python standard library imports (time, logging, json, typing). No automation or ML libraries are present.
 
-- **Language:** Python
-- **Framework:** FastAPI
-- **Key Dependencies:** pydantic,fastapi,uvicorn,anthropic,openai,numpy
-- **Containerization:** Docker + Docker Compose
+## Status
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.11+
-- Docker & Docker Compose (optional)
-
-### Installation
-
-```bash
-git clone https://github.com/MukundaKatta/workflow-autopilot.git
-cd workflow-autopilot
-pip install -r requirements.txt
-```
-
-### Running
-
-```bash
-uvicorn app.main:app --reload
-```
-
-### Docker
-
-```bash
-docker-compose up
-```
-
-## Project Structure
-
-```
-workflow-autopilot/
-├── src/           # Source code
-├── tests/         # Test suite
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-```
-
+Scaffolding only. No working workflow automation functionality exists.
