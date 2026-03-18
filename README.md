@@ -59,6 +59,3 @@ workflow-autopilot/
 └── README.md
 ```
 
-## License
-
-MIT
