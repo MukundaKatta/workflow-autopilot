@@ -1,31 +1,64 @@
-# workflow-autopilot
+# Workflow Autopilot
 
-**AI-powered workflow automation for business processes**
+AI-powered workflow automation for business processes
 
-## Install
+## Features
+
+- Action Executor
+Analytics
+Api
+Engine
+Integrations
+Scheduler
+Trigger System
+Workflow Builder
+
+## Tech Stack
+
+- **Language:** Python
+- **Framework:** FastAPI
+- **Key Dependencies:** pydantic,fastapi,uvicorn,anthropic,openai,numpy
+- **Containerization:** Docker + Docker Compose
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.11+
+- Docker & Docker Compose (optional)
+
+### Installation
+
 ```bash
-pip install -e '.[dev]'
+git clone https://github.com/MukundaKatta/workflow-autopilot.git
+cd workflow-autopilot
+pip install -r requirements.txt
 ```
 
-## Quick Start
-```python
-from src import __version__
+### Running
+
+```bash
+uvicorn app.main:app --reload
 ```
 
-## Modules
-- **engine**
-- **workflow_builder**
-- **trigger_system**
-- **action_executor**
-- **scheduler**
-- **integrations**
-- **analytics**
-- **api**
+### Docker
 
-## Docker
 ```bash
-docker compose up
+docker-compose up
+```
+
+## Project Structure
+
+```
+workflow-autopilot/
+├── src/           # Source code
+├── tests/         # Test suite
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 ```
 
 ## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+
+MIT
